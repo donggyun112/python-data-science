@@ -34,7 +34,7 @@ This function takes a string as an \
 
 
 def main():
-    """ $>python building.py str | cat -e """
+    """$>python building.py str | cat -e"""
     try:
         string = None
         if len(sys.argv) > 2:
@@ -56,5 +56,5 @@ def main():
         print(f"{e}$", file=sys.stderr)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

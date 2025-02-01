@@ -18,5 +18,5 @@ ft_package/archive/refs/tags/v0.0.1.tar.gz",
     keywords=["sample", "package"],
     platforms=["unix", "linux", "windows"],
     packages=setuptools.find_packages(),
-    include_package_data=True
+    include_package_data=True,
 )
