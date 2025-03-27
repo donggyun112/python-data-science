@@ -142,3 +142,4 @@ cython_debug/
 # test2.py 제거
 
 python0/ex0*/tester.py
+python1/ex0*/tester.py

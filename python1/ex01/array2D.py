@@ -17,6 +17,6 @@ def slice_me(family: list, start: int, end: int) -> list:
     if start >= len(family) or end >= len(family):
         raise ValueError("start and end must be less")
     x = slice(start, end)
-    print("My shape is", np.array(family).shape)
-    print("My new shape is", np.array(family)[x].shape)
+    print("My shape is :", np.array(family).shape)
+    print("My new shape is :", np.array(family)[x].shape)
     return np.array(family)[x].tolist()
