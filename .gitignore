@@ -135,3 +135,10 @@ cython_debug/
 
 
 /bin
+
+
+# tester.py 제거
+# test.py 제거
+# test2.py 제거
+
+python0/ex0*/tester.py
